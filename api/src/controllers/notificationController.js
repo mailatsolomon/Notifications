@@ -4,8 +4,8 @@ const nodemailer = require("nodemailer");
 
 /*Utils*/
 const emailNotification = require("../utils/smtp");
-const sesEmailNotification = require("../utils/smtp");
-const sendSMS = require("../utils/smtp");
+const sesEmailNotification = require("../utils/ses");
+const sendSMS = require("../utils/semaphore");
 const pushNotif = require("../utils/pushNotification");
 
 /*Entities*/
